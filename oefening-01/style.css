@@ -1,0 +1,18 @@
+article{
+    width: 20rem;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-flow: wrap;
+}
+

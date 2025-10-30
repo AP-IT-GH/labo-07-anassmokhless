@@ -1,0 +1,38 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main{
+    background-color: lightgrey;
+    background-image: url("achtergrond.webp");
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item{
+    width: 50%;
+}
+
+.item:nth-child(3n + 3){
+    background-color: rgba(139, 211, 146, 0.5);
+    width: 95%;
+}
+
+.item:nth-child(3n + 3)::first-letter{
+    font-size: 200%;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
